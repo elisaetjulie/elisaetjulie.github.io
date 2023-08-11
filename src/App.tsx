@@ -4,6 +4,10 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Main from "./pages/Main";
 
 function App() {
+  return <>Site is under constuction</>;
+}
+
+function _App() {
   return (
     <Router>
       <nav>

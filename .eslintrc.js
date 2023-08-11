@@ -10,7 +10,7 @@ module.exports = {
     },
   },
   rules: {
-    "no-console": "error",
+    "no-console": "warn",
     "unused-imports/no-unused-imports": "error",
     "react-hooks/exhaustive-deps": "error",
     "react/display-name": "off",

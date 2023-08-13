@@ -1,4 +1,5 @@
 import React, { PropsWithChildren, memo } from "react";
+import { useLocation } from "react-router-dom";
 
 import { PropsWithStyles } from "src/types";
 
@@ -10,7 +11,17 @@ const BaseLayout = ({
   className,
   children,
 }: PropsWithChildren<BaseLayoutProps>) => {
-  return <StyledContainer className={className}>{children}</StyledContainer>;
+  const location = useLocation();
+
+  return (
+    <StyledContainer
+      className={className}
+      noBG={location.pathname === "/location"}
+      lightBG={location.pathname !== "/"}
+    >
+      {children}
+    </StyledContainer>
+  );
 };
 
 export default memo(BaseLayout);

@@ -13,6 +13,7 @@ export const StyledNav = styled("ul")`
   gap: ${theme.spacings[16]};
   padding: ${theme.spacings[16]};
   position: relative;
+  font-size: ${theme.fontSizes.large};
 
   & > li {
     display: inline-flex;

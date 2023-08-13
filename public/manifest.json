@@ -8,7 +8,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "icon.svg",
+      "src": "icons/ring.svg",
       "type": "image/svg",
       "sizes": "512x512"
     }

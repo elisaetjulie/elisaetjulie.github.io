@@ -14,6 +14,9 @@ export const StyledContainer = styled("div")`
   ${theme.breakpoints.down("md")} {
     justify-content: center;
   }
+  ${theme.breakpoints.down("sm")} {
+    justify-content: flex-end;
+  }
 `;
 
 export const StyledTitle = styled("h1")`
@@ -21,4 +24,7 @@ export const StyledTitle = styled("h1")`
   margin: 0;
   margin-bottom: ${theme.spacings[64]};
   font-family: HighSpirited, cursive;
+  ${theme.breakpoints.down("sm")} {
+    font-size: 4em;
+  }
 `;

@@ -52,7 +52,7 @@ export const StyledContainer = styled("div")<{
   ${theme.breakpoints.down("sm")} {
     width: ${theme.breakpoints.xs};
     font-size: 15px;
-    padding: ${theme.spacings[32]} ${theme.spacings[16]};
+    padding: ${theme.spacings[32]} ${theme.spacings[16]} ${theme.spacings[64]};
   }
   margin: auto;
 `;

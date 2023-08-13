@@ -1,5 +1,7 @@
 import React, { memo } from "react";
 
+import useMediaQuery from "src/hooks/useMediaQuery";
+import { theme } from "src/style/theme";
 import { PropsWithStyles } from "src/types";
 
 import {
@@ -8,13 +10,17 @@ import {
   StyledPicturesContainer,
   StyledPic,
   StyledLink,
+  StyledTitle,
 } from "./Location.styles";
 
 export interface LocationProps extends PropsWithStyles {}
 
 const Location = ({ className }: LocationProps) => {
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
   return (
     <StyledContainer className={className}>
+      {isMobile && <StyledTitle>Lieu</StyledTitle>}
       <StyledParagraph>
         Après la cérémonie, qui aura lieu à la mairie de Plobannalec-Lesconil,
         nous vous accueillerons à la ferme de Perinaguen :{" "}

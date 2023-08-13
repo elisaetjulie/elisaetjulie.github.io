@@ -33,6 +33,7 @@ export const theme = {
     16: "16px",
     32: "32px",
     64: "64px",
+    128: "128px",
   },
   breakpoints: {
     xs: `${breakpoints.xs}px`,

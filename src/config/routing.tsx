@@ -1,5 +1,7 @@
+import Hosting from "src/pages/Hosting/Hosting";
 import Location from "src/pages/Location";
 import Main from "src/pages/Main";
+import Pictures from "src/pages/Pictures/Pictures";
 import Programm from "src/pages/Programm/Programm";
 
 export const routing = [
@@ -21,11 +23,11 @@ export const routing = [
   {
     label: "Hébergement",
     path: "/hosting",
-    element: <>TODO</>,
+    element: <Hosting />,
   },
   {
     label: "Photos",
     path: "/pictures",
-    element: <>TODO</>,
+    element: <Pictures />,
   },
 ];

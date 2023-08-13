@@ -41,12 +41,12 @@ export const StyledContainer = styled("div")<{
   }
   ${theme.breakpoints.down("lg")} {
     width: ${theme.breakpoints.md};
-    font-size: 21px;
+    font-size: 23px;
     padding: 0 ${theme.spacings[32]} ${theme.spacings[16]};
   }
   ${theme.breakpoints.down("md")} {
     width: ${theme.breakpoints.sm};
-    font-size: 15px;
+    font-size: 20px;
     padding: ${theme.spacings[32]} ${theme.spacings[16]};
   }
   ${theme.breakpoints.down("sm")} {

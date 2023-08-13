@@ -26,9 +26,16 @@ const Programm = ({ className }: ProgrammProps) => {
         <StyledImage src="/icons/rings.png" />
         <StyledParagraph>
           La cérémonie civile aura lieu à 15 heure à la mairie de
-          Plobannalec-Lesconil qui se trouve au 1 rue de la mairie. L’accès en
-          transport en commun est possible mais le covoiturage est conseillé. La
-          salle n’étant pas grande il y aura un accès limité à la cérémonie.
+          Plobannalec-Lesconil qui se trouve au{" "}
+          <StyledLink
+            to="https://goo.gl/maps/3pqTB8UEsL55PR7D8"
+            target="_blank"
+          >
+            1 rue de la mairie
+          </StyledLink>
+          . L’accès en transport en commun est possible mais le covoiturage est
+          conseillé. La salle n’étant pas grande il y aura un accès limité à la
+          cérémonie.
         </StyledParagraph>
       </StyledSection>
       <StyledSection>

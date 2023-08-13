@@ -48,6 +48,9 @@ export const StyledParagraph = styled("p")`
 
 export const StyledLink = styled(Link)`
   color: inherit;
+  &:hover  {
+    opacity: 0.7;
+  }
 `;
 
 export const StyledSeparator = styled("span")`

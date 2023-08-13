@@ -2,8 +2,20 @@ html,
 body {
   margin: 0;
   width: 100vw;
+  font-family: AppleGaramond, sans-serif;
 }
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: AppleGaramond;
+  src: url(fonts/apple_garamond/AppleGaramond-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: HighSpirited;
+  src: url(fonts/high_spirited/High-Spirited.ttf);
 }

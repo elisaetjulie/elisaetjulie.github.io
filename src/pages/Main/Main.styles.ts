@@ -17,4 +17,5 @@ export const StyledTitle = styled("h1")`
   font-size: ${theme.fontSizes.title};
   margin: 0;
   margin-bottom: ${theme.spacings[64]};
+  font-family: HighSpirited, cursive;
 `;

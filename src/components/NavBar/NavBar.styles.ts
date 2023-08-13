@@ -15,6 +15,7 @@ export const StyledNav = styled("ul")`
   padding: 0 ${theme.spacings[16]};
   position: relative;
   font-size: ${theme.fontSizes.large};
+  margin: 0;
 
   & > li {
     display: inline-flex;

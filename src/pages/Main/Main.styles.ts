@@ -11,6 +11,9 @@ export const StyledContainer = styled("div")`
   gap: ${theme.spacings[16]};
   font-size: ${theme.fontSizes.large};
   padding: 0 ${theme.spacings[16]} ${theme.spacings[64]};
+  ${theme.breakpoints.down("md")} {
+    justify-content: center;
+  }
 `;
 
 export const StyledTitle = styled("h1")`

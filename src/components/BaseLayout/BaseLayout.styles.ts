@@ -29,7 +29,7 @@ export const StyledContainer = styled("div")<{
     background-repeat: no-repeat;
     background-position: bottom ${theme.spacings[16]} right
       ${theme.spacings[16]};
-    opacity: ${lightBG ? 0.15 : 0.35};
+    opacity: ${lightBG ? 0.15 : 0.25};
   }`}
 
   width: ${theme.breakpoints.xl};
@@ -47,12 +47,12 @@ export const StyledContainer = styled("div")<{
   ${theme.breakpoints.down("md")} {
     width: ${theme.breakpoints.sm};
     font-size: 10px;
-    padding: 0 ${theme.spacings[16]} ${theme.spacings[16]};
+    padding: ${theme.spacings[32]} ${theme.spacings[16]};
   }
   ${theme.breakpoints.down("sm")} {
     width: ${theme.breakpoints.xs};
     font-size: 10px;
-    padding: 0 ${theme.spacings[4]} ${theme.spacings[8]};
+    padding: ${theme.spacings[32]} ${theme.spacings[16]};
   }
   margin: auto;
 `;

@@ -1,26 +1,21 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Main from "./pages/Main";
+import BaseLayout from "./components/BaseLayout/BaseLayout";
+import NavBar from "./components/NavBar/NavBar";
+import { routing } from "./config/routing";
 
 function App() {
-  return <>Site is under constuction</>;
-}
-
-function _App() {
   return (
     <Router>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Main</Link>
-          </li>
-        </ul>
-      </nav>
-
-      <Routes>
-        <Route path="/" element={<Main />} />
-      </Routes>
+      <BaseLayout>
+        <NavBar />
+        <Routes>
+          {routing.map(({ path, element }) => (
+            <Route path={path} element={element} key={path} />
+          ))}
+        </Routes>
+      </BaseLayout>
     </Router>
   );
 }

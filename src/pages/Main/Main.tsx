@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 
-import { PropsWithStyles } from "@/types";
+import { PropsWithStyles } from "src/types";
 
 import { StyledContainer } from "./Main.styles";
 

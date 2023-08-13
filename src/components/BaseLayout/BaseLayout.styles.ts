@@ -33,25 +33,25 @@ export const StyledContainer = styled("div")<{
   }`}
 
   width: ${theme.breakpoints.xl};
-  font-size: 30px;
+  font-size: 45px;
 
   ${theme.breakpoints.down("xl")} {
     width: ${theme.breakpoints.lg};
-    font-size: 18px;
+    font-size: 27px;
   }
   ${theme.breakpoints.down("lg")} {
     width: ${theme.breakpoints.md};
-    font-size: 14px;
+    font-size: 21px;
     padding: 0 ${theme.spacings[32]} ${theme.spacings[16]};
   }
   ${theme.breakpoints.down("md")} {
     width: ${theme.breakpoints.sm};
-    font-size: 10px;
+    font-size: 15px;
     padding: ${theme.spacings[32]} ${theme.spacings[16]};
   }
   ${theme.breakpoints.down("sm")} {
     width: ${theme.breakpoints.xs};
-    font-size: 10px;
+    font-size: 15px;
     padding: ${theme.spacings[32]} ${theme.spacings[16]};
   }
   margin: auto;

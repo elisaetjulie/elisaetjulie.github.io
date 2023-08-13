@@ -1,3 +1,4 @@
+import Location from "src/pages/Location";
 import Main from "src/pages/Main";
 
 export const routing = [
@@ -9,7 +10,7 @@ export const routing = [
   {
     label: "Lieu",
     path: "/location",
-    element: <>TODO</>,
+    element: <Location />,
   },
   {
     label: "Programme",

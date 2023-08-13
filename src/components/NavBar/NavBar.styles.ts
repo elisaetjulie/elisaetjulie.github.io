@@ -5,7 +5,9 @@ import { theme } from "src/style/theme";
 
 import styled from "@emotion/styled";
 
-export const StyledContainer = styled("nav")``;
+export const StyledContainer = styled("nav")`
+  margin-top: ${theme.spacings[16]};
+`;
 
 export const StyledNav = styled("ul")`
   display: flex;

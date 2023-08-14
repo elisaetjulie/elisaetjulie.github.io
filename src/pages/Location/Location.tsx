@@ -31,7 +31,7 @@ const Location = ({ className }: LocationProps) => {
           394 Rue de Perinaguen, 29760 Penmarc'h
         </StyledLink>
         . Elle est accessible en voiture à 10 minutes de la mairie, et se trouve
-        à 1km de la mer. Un parking sera disponible sur place.
+        à 1km de la mer. Un parking sera mis à disposition sur place.
       </StyledParagraph>
       <StyledPicturesContainer>
         <StyledPic src="images/farm.jpeg" />

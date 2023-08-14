@@ -25,6 +25,6 @@ export const StyledTitle = styled("h1")`
   margin-bottom: ${theme.spacings[64]};
   font-family: HighSpirited, cursive;
   ${theme.breakpoints.down("sm")} {
-    font-size: 4em;
+    font-size: 6em;
   }
 `;

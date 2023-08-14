@@ -24,6 +24,7 @@ export const StyledTitle = styled("h1")`
   font-family: HighSpirited, cursive;
   margin: 0;
   align-self: center;
+  font-weight: 500;
 `;
 
 export const StyledSection = styled("section")`

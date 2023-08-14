@@ -14,11 +14,7 @@ const BaseLayout = ({
   const location = useLocation();
 
   return (
-    <StyledContainer
-      className={className}
-      noBG={location.pathname === "/location"}
-      lightBG={location.pathname !== "/"}
-    >
+    <StyledContainer className={className} lightBG={location.pathname !== "/"}>
       {children}
     </StyledContainer>
   );

@@ -24,8 +24,8 @@ export const theme = {
   },
   fontSizes: {
     normal: "1em",
-    large: "1.5em",
-    title: "2em",
+    large: "1.8em",
+    title: "2.8em",
   },
   spacings: {
     4: "4px",

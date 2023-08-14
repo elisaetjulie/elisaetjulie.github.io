@@ -17,14 +17,21 @@ export const StyledContainer = styled("div")`
   ${theme.breakpoints.down("sm")} {
     justify-content: flex-end;
   }
+  @media screen and (max-height: 512px) {
+    font-size: 1.5em;
+  }
 `;
 
 export const StyledTitle = styled("h1")`
   font-size: ${theme.fontSizes.title};
+  font-weight: 500;
   margin: 0;
   margin-bottom: ${theme.spacings[64]};
   font-family: HighSpirited, cursive;
   ${theme.breakpoints.down("sm")} {
-    font-size: 6em;
+    font-size: 4em;
+  }
+  @media screen and (max-height: 512px) {
+    font-size: 3em;
   }
 `;

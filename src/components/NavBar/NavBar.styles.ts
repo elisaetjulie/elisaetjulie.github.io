@@ -27,7 +27,7 @@ export const StyledNav = styled("ul")`
     content: "";
     position: absolute;
     border-bottom: solid 1px ${theme.colors.primary};
-    inset: 100% ${theme.spacings[32]} 0;
+    inset: 100% ${theme.spacings[64]} 0;
   }
 `;
 

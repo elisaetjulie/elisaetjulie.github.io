@@ -59,7 +59,7 @@ const Programm = ({ className }: ProgrammProps) => {
       </StyledSection>
       <StyledSection>
         <StyledParagraph>
-          Enfin soyez bien reposés, car après le dîner la soirée continuera jusqu'au bout de la nuit ! 
+          Enfin, soyez bien reposés, car après le dîner la soirée continuera jusqu'au bout de la nuit ! 
         </StyledParagraph>
         <StyledImage src="icons/platter.png" />
       </StyledSection>

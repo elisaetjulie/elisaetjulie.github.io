@@ -25,7 +25,7 @@ const Programm = ({ className }: ProgrammProps) => {
       <StyledSection>
         <StyledImage src="/icons/rings.png" />
         <StyledParagraph>
-          La cérémonie civile aura lieu à 15 heure à la mairie de
+          Les festivités débuteront par la cérémonie civile ! Elle aura lieu à 15 heure à la mairie de
           Plobannalec-Lesconil qui se trouve au{" "}
           <StyledLink
             to="https://goo.gl/maps/3pqTB8UEsL55PR7D8"
@@ -33,32 +33,33 @@ const Programm = ({ className }: ProgrammProps) => {
           >
             1 rue de la mairie
           </StyledLink>
-          . L’accès en transport en commun est possible mais le covoiturage est
-          conseillé. La salle n’étant pas grande il y aura un accès limité à la
-          cérémonie.
+          . L’accès en transport en commun est possible par le bus 56A depuis la gare de Quimper, mais le covoiturage est
+          conseillé (vous pouvez utiliser la {" "}
+          <StyledLink
+            to="https://www.covievent.org/covoiturage/mariage-a-la-ferme-de-perinaguen/785a9f8f9dafaefbe014ab1bc959c499"
+            target="_blank"
+            >
+            plateforme
+          </StyledLink> de covoiturage dédiée à l'évènement).
         </StyledParagraph>
       </StyledSection>
       <StyledSection>
         <StyledParagraph>
           Après la cérémonie nous nous retrouverons à partir de 16 heure sur le
           lieu de la réception :{" "}
-          <StyledLink to="/location"> la ferme de Perinaguen</StyledLink>. Nous
-          y ferons la cérémonie laïque et les photos de groupe.
+          <StyledLink to="/location"> la ferme de Perinaguen</StyledLink>, où se déroulera l'ensemble du week-end.
         </StyledParagraph>
         <StyledImage src="icons/camera.png" />
       </StyledSection>
       <StyledSection>
         <StyledImage src="icons/glasses.png" />
         <StyledParagraph>
-          A la fin de la cérémonie laïque, les festivités pourront commencer,
-          nous vous proposerons un vin d’honneur 100% veggie !
+          La soirée débutera avec un vin d'honneur. Vous vous en doutez certainement, nous ferons honneur à la cuisine végétarienne pour l'ensemble des repas. Si vous avez des allergies alimentaires, n'oubliez pas de les transmettre.
         </StyledParagraph>
       </StyledSection>
       <StyledSection>
         <StyledParagraph>
-          Le repas sera servi et la fête continuera jusqu’au bout de la nuit,
-          toujours à{" "}
-          <StyledLink to="/location">la ferme de Perinaguen</StyledLink>.
+          Enfin soyez bien reposés, car après le dîner la soirée continuera jusqu'au bout de la nuit ! 
         </StyledParagraph>
         <StyledImage src="icons/platter.png" />
       </StyledSection>
@@ -66,7 +67,7 @@ const Programm = ({ className }: ProgrammProps) => {
       <StyledSection>
         <StyledImage src="icons/bretagne.png" />
         <StyledParagraph>
-          La fête continue le dimanche ! Nous vous attendons à partir de 11
+          La fête se poursuit le dimanche ! Nous vous attendons à partir de 11
           heure à la ferme afin de clôturer ce weekend en beauté. Le déjeuner,
           aux saveurs de la Bretagne, sera servi à partir de 13 heure.
         </StyledParagraph>

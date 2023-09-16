@@ -22,21 +22,20 @@ const Location = ({ className }: LocationProps) => {
     <StyledContainer className={className}>
       {isMobile && <StyledTitle>Lieu</StyledTitle>}
       <StyledParagraph>
-        Après la cérémonie, qui aura lieu à la mairie de Plobannalec-Lesconil,
-        nous vous accueillerons à la ferme de Perinaguen :{" "}
+        Notre mariage aura lieu à la ferme de Perinaguen :{" "}
         <StyledLink
           href="https://goo.gl/maps/xh1CieqMCeyLjEiR7"
           target="_blank"
         >
           394 Rue de Perinaguen, 29760 Penmarc'h
         </StyledLink>
-        . Elle est accessible en voiture à 10 minutes de la mairie, et se trouve
-        à 1km de la mer. Un parking sera mis à disposition sur place.
+        . Cette ancienne ferme typique du pays Bigouden se trouve à un kilomètre de la mer. Si vous venez en voiture, elle est à dix minutes de la mairie. Un parking sera mis à disposition sur place, comme indiqué sur le plan d'accès ci-dessous. Un accès en bus est également possible, avec le 56A depuis la gare SNCF de Quimper. Les arrêts Gouesnach et Kergaouen se trouvent à moins de dix minutes à pied de la ferme. Il faudra compter environ une heure pour ce trajet en bus. 
       </StyledParagraph>
       <StyledPicturesContainer>
         <StyledPic src="images/farm.jpeg" />
         <StyledPic src="images/farm2.jpeg" />
         <StyledPic src="images/beach.webp" />
+        <StyledPic src="images/plan.png" />
       </StyledPicturesContainer>
     </StyledContainer>
   );

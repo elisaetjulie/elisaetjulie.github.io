@@ -12,7 +12,7 @@ const Hosting = ({ className }: HostingProps) => {
       <i>
         Voici des possibilités de logements autour de la ferme de Perinaguen pour le week-end. Attention sur la période estivale les locations de mobil-homes et de gîtes se font le plus souvent du samedi au samedi. N'hésitez pas à profitez de l'occasion pour visiter le pays bigouden !
 
-Campings à Penmarc’h :
+<p> Campings à Penmarc’h : </p>
         <ul>
           <li>Flower camping cap finistère</li>
           <li>Camping le grand bleu</li>

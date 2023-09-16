@@ -13,10 +13,12 @@ const Hosting = ({ className }: HostingProps) => {
         Voici des possibilités de logements autour de la ferme de Perinaguen pour le week-end. Attention sur la période estivale les locations de mobil-homes et de gîtes se font le plus souvent du samedi au samedi. N'hésitez pas à profitez de l'occasion pour visiter le pays bigouden !
 
 Campings à Penmarc’h :
-        - Flower camping cap finistère
-        - Camping le grand bleu
-        - Village La plage
-        - Camping municipal de Toul Ar Ster 
+        <ul>
+          <li>Flower camping cap finistère</li>
+          <li>Camping le grand bleu</li>
+          <li>Village La plage</li>
+          <liCamping municipal de Toul Ar Ster </li>
+        </ul>
 
 Gîtes à Penmarc’h :
         - Gîte Chez mamie, 52 Rue de Gouesnach

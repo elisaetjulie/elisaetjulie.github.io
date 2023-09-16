@@ -29,7 +29,13 @@ const Location = ({ className }: LocationProps) => {
         >
           394 Rue de Perinaguen, 29760 Penmarc'h
         </StyledLink>
-        . Cette ancienne ferme typique du pays Bigouden se trouve à un kilomètre de la mer. Si vous venez en voiture, elle est à dix minutes de la mairie. Un parking sera mis à disposition sur place, comme indiqué sur le plan d'accès ci-dessous. Un accès en bus est également possible, avec le 56A depuis la gare SNCF de Quimper. Les arrêts Gouesnach et Kergaouen se trouvent à moins de dix minutes à pied de la ferme. Il faudra compter environ une heure pour ce trajet en bus. 
+        . Cette ancienne ferme typique du pays Bigouden se trouve à un kilomètre de la mer. Si vous venez en voiture, elle est à dix minutes de la mairie. Un parking sera mis à disposition sur place, comme indiqué sur le plan d'accès ci-dessous. Un accès en bus est également possible, avec le 56A depuis la gare SNCF de Quimper. Les arrêts Gouesnach et Kergaouen se trouvent à moins de dix minutes à pied de la ferme. Il faudra compter environ une heure pour ce trajet en bus. Nous vous conseillons cependant de covoiturer en utilisant la 
+        <StyledLink
+          href="https://www.covievent.org/covoiturage/mariage-a-la-ferme-de-perinaguen/785a9f8f9dafaefbe014ab1bc959c499"
+          target="_blank"
+        >
+          plateforme dédiée
+        </StyledLink>.
       </StyledParagraph>
       <StyledPicturesContainer>
         <StyledPic src="images/farm.jpeg" />

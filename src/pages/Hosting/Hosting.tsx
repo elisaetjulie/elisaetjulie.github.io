@@ -17,7 +17,7 @@ Campings à Penmarc’h :
           <li>Flower camping cap finistère</li>
           <li>Camping le grand bleu</li>
           <li>Village La plage</li>
-          <liCamping municipal de Toul Ar Ster </li>
+          <li> Camping municipal de Toul Ar Ster </li>
         </ul>
 
 Gîtes à Penmarc’h :

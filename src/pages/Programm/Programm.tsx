@@ -67,7 +67,7 @@ const Programm = ({ className }: ProgrammProps) => {
       <StyledSection>
         <StyledImage src="icons/bretagne.png" />
         <StyledParagraph>
-          La fête se poursuit le dimanche ! Nous vous attendons à partir de 11
+          La fête se poursuivra le dimanche ! Nous vous attendrons à partir de 11
           heure à la ferme afin de clôturer ce weekend en beauté. Le déjeuner,
           aux saveurs de la Bretagne, sera servi à partir de 13 heure.
         </StyledParagraph>

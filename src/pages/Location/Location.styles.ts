@@ -46,3 +46,55 @@ export const StyledPic = styled("img")`
     width: 70vw;
   }
 `;
+
+export const StyledPlanContainer = styled("div")`
+  cursor: zoom-in;
+  position: relative;
+  display: flex;
+
+  &::after {
+    content: "Cliquer pour agrandir";
+    position: absolute;
+    font-family: sans-serif;
+    z-index: 1;
+    color: white;
+    background-color: black;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    opacity: 0.4;
+  }
+`;
+
+export const StyledZoomedPlanContainer = styled("div")`
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  transition: z-index 1s, background-color 1s;
+  cursor: zoom-out;
+  user-select: none;
+
+  &.open {
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+`;
+export const StyledZoomedPlan = styled("img")`
+  position: fixed;
+  transition: all 1s;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  object-fit: contain;
+
+  div.open > & {
+    opacity: 1;
+    height: 95vh;
+    width: 95vw;
+  }
+`;

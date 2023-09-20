@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React, { memo, useState } from "react";
 
 import useMediaQuery from "src/hooks/useMediaQuery";
 import { theme } from "src/style/theme";
@@ -11,12 +11,16 @@ import {
   StyledPic,
   StyledLink,
   StyledTitle,
+  StyledZoomedPlan,
+  StyledZoomedPlanContainer,
+  StyledPlanContainer,
 } from "./Location.styles";
 
 export interface LocationProps extends PropsWithStyles {}
 
 const Location = ({ className }: LocationProps) => {
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const [isPlanOpen, setIsPlanOpen] = useState(false);
 
   return (
     <StyledContainer className={className}>
@@ -49,8 +53,16 @@ const Location = ({ className }: LocationProps) => {
         <StyledPic src="images/farm.jpeg" />
         <StyledPic src="images/farm2.jpeg" />
         <StyledPic src="images/beach.webp" />
-        <StyledPic src="images/plan.png" />
+        <StyledPlanContainer onClick={() => setIsPlanOpen(true)}>
+          <StyledPic src="images/plan.png" />
+        </StyledPlanContainer>
       </StyledPicturesContainer>
+      <StyledZoomedPlanContainer
+        className={isPlanOpen ? "open" : ""}
+        onClick={() => setIsPlanOpen(false)}
+      >
+        <StyledZoomedPlan src="images/plan.png" />
+      </StyledZoomedPlanContainer>
     </StyledContainer>
   );
 };

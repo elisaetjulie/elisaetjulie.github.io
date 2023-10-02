@@ -4,6 +4,7 @@ import styled from "@emotion/styled";
 
 export const StyledContainer = styled("div")`
   flex-grow: 1;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -34,4 +35,14 @@ export const StyledTitle = styled("h1")`
   @media screen and (max-height: 512px) {
     font-size: 3em;
   }
+`;
+
+export const StyledAknowledgements = styled("span")`
+  font-size: 0.3em;
+  align-self: flex-end;
+  font-style: italic;
+  opacity: 0.8;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 `;

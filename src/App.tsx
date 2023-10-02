@@ -1,26 +1,27 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Main from "./pages/Main";
+import BaseLayout from "./components/BaseLayout/BaseLayout";
+import MobileNavBar from "./components/MobileNavBar/MobileNavBar";
+import NavBar from "./components/NavBar/NavBar";
+import { routing } from "./config/routing";
+import useMediaQuery from "./hooks/useMediaQuery";
+import { theme } from "./style/theme";
 
 function App() {
-  return <>Site is under constuction</>;
-}
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-function _App() {
   return (
     <Router>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Main</Link>
-          </li>
-        </ul>
-      </nav>
-
-      <Routes>
-        <Route path="/" element={<Main />} />
-      </Routes>
+      <BaseLayout>
+        {!isMobile && <NavBar />}
+        <Routes>
+          {routing.map(({ path, element }) => (
+            <Route path={path} element={element} key={path} />
+          ))}
+        </Routes>
+        {isMobile && <MobileNavBar />}
+      </BaseLayout>
     </Router>
   );
 }

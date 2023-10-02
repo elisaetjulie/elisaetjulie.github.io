@@ -38,12 +38,23 @@ export const StyledPicturesContainer = styled("div")`
 
 export const StyledPic = styled("img")`
   height: 35vh;
-  max-width: 90vw;
-  object-fit: contain;
+  width: 400px;
+  object-fit: cover;
   box-shadow: 1px 1px 8px -1px ${theme.colors.primary};
   ${theme.breakpoints.down("sm")} {
     height: auto;
-    width: 70vw;
+    width: 100%;
+  }
+`;
+
+export const StyledPlan = styled("iframe")`
+  height: 35vh;
+  width: 400px;
+  box-shadow: 1px 1px 8px -1px ${theme.colors.primary};
+  border: none;
+  ${theme.breakpoints.down("sm")} {
+    height: 300px;
+    width: 100%;
   }
 `;
 
